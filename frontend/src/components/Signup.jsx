@@ -13,7 +13,7 @@ export default function Signup() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:5000/signup", {
+      const res = await axios.post("https://backend1-dzt1.onrender.com/signup", {
         name,
         password,
       });
